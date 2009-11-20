@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <title>Demo</title>
+    </head>
+    <body>
+        
+        <h1>Demo</h1>
+        <script src="http://code.jquery.com/nightlies/jquery-nightly.js"></script>
+        <script src="cssdatarequest.js"></script>
+        <script>
+            cssDataRequest.FF2 = true;
+            cssDataRequest('http://qd9.co.uk/css-data-response.php', function(response){
+                alert(response);
+            });
+        </script>
+        
+    </body>
+</html>
